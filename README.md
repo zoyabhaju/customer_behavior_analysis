@@ -1,4 +1,4 @@
-📊 Customer Shopping Behavior Analysis
+# 📊 Customer Shopping Behavior Analysis
 
 🔍 Overview
 
@@ -58,10 +58,10 @@ The Power BI dashboard provides insights on:
 🚀 How to Run
 1. Clone the repository
 
-  # Clone the repository
+  Clone the repository :
   git clone https://github.com/your-username/project-name.git
 
-  # Navigate to project folder
+  Navigate to project folder :
   cd project-name
   
 2. Open the Python notebook and run EDA steps
