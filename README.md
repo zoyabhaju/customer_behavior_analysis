@@ -61,3 +61,23 @@ The Power BI dashboard provides insights on:
 3. Load cleaned data into MySQL
 4. Execute SQL queries for analysis
 5. Open Power BI file to explore dashboard
+
+## 📊 Dashboard Preview
+![Dashboard](screenshots/dashboard.png)
+
+## 📈 Key Insight
+![Key Insight](screenshots/key_insight.png)
+
+## 🧠 Customer Segmentation
+![Segmentation](screenshots/segmentation.png)
+
+## 🐍 Python EDA
+![EDA](screenshots/python_eda.png)
+
+## 🧹 Data Cleaning
+![Before Cleaning](screenshots/data_cleaning_before.png)
+![After Cleaning](screenshots/data_cleaning_after.png)
+
+## 🗄️ SQL Analysis
+![SQL Query](screenshots/sql_query.png)
+![SQL Output](screenshots/sql_query_output.png)
