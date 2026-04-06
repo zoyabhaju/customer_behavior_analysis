@@ -6,7 +6,7 @@ This project analyzes customer shopping behavior using transactional data to unc
 
 📁 Dataset
 
-1. ~3,900 customer transactions
+1. 3,900 customer transactions
 2. 18 features including
 	- Demographics (Age, Gender, Location, Subscription Status)
 	- Purchase details (Product, Category, Amount, Season)
@@ -57,13 +57,6 @@ The Power BI dashboard provides insights on:
 
 🚀 How to Run
 1. Clone the repository
-
-  Clone the repository :
-  git clone https://github.com/your-username/project-name.git
-
-  Navigate to project folder :
-  cd project-name
-  
 2. Open the Python notebook and run EDA steps
 3. Load cleaned data into MySQL
 4. Execute SQL queries for analysis
