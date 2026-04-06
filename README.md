@@ -1,25 +1,25 @@
 # 📊 Customer Shopping Behavior Analysis
 
-🔍 Overview
+## 🔍 Overview
 
-This project analyzes customer shopping behavior using transactional data to uncover insights into purchasing patterns, customer segmentation, and product preferences. The goal is to support data-driven business decisions and improve marketing and revenue strategies.
+This project analyzes 3,900+ customer transactions to uncover purchasing patterns, customer segments, and revenue insights. It follows an end-to-end data analytics workflow using Python, MySQL, and Power BI to generate actionable business insights.
 
-📁 Dataset
+## 📁 Dataset
 
-1. 3,900 customer transactions
-2. 18 features including
+1. ~3,900 records with 18 features
+2. Includes:
 	- Demographics (Age, Gender, Location, Subscription Status)
 	- Purchase details (Product, Category, Amount, Season)
 	- Behavior metrics (Discount usage, Frequency, Ratings, Shipping 	  type)
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
-1. Python (Pandas, NumPy, Matplotlib, Seaborn) – Data cleaning & EDA
-2. MySQL – Business query analysis
-3. Power BI – Interactive dashboard
-4. Gamma – Presentation creation
+- Python (Pandas, NumPy, Matplotlib, Seaborn) – Data cleaning & EDA
+- MySQL – Business query analysis
+- Power BI – Interactive dashboard
+- Gamma – Presentation creation
 
-⚙️ Project Steps
+## ⚙️ Project Steps
 
 1. Data Loading
 	- Imported dataset using Pandas
@@ -39,45 +39,74 @@ This project analyzes customer shopping behavior using transactional data to unc
 	- Documented insights in a report
 	- Created presentation using Gamma
 
-📊 Dashboard
-
-The Power BI dashboard provides insights on:
-
-1. Revenue distribution
-2. Customer segments
-3. Product performance
-4. Purchase behavior trends
-
-📈 Results & Insights
-1. Identified high-value customer segments
-2. Analyzed impact of discounts on revenue
-3. Found top-performing products and categories
-4. Observed trends in subscription and repeat purchases
-5. Provided actionable recommendations for marketing and retention
-
-🚀 How to Run
-1. Clone the repository
-2. Open the Python notebook and run EDA steps
-3. Load cleaned data into MySQL
-4. Execute SQL queries for analysis
-5. Open Power BI file to explore dashboard
-
 ## 📊 Dashboard Preview
 ![Dashboard](screenshots/dashboard.png)
 
-## 📈 Key Insight
-![Key Insight](screenshots/key_insight.png)
+The Power BI dashboard provides insights on:
 
-## 🧠 Customer Segmentation
-![Segmentation](screenshots/segmentation.png)
+-  Revenue distribution
+-  Customer segments
+-  Product performance
+-  Purchase behavior trends
 
-## 🐍 Python EDA
-![EDA](screenshots/python_eda.png)
+## 📈 Key Insights
 
-## 🧹 Data Cleaning
-![Before Cleaning](screenshots/data_cleaning_before.png)
-![After Cleaning](screenshots/data_cleaning_after.png)
+- Loyal customers contribute the highest revenue
+- Discounts increase purchase frequency but reduce average order value
+- Certain product categories dominate sales across all age groups
+- Subscribers show higher repeat purchase behavior
 
-## 🗄️ SQL Analysis
-![SQL Query](screenshots/sql_query.png)
-![SQL Output](screenshots/sql_query_output.png)
+## 🧠 Skills Demonstrated
+
+- Data Cleaning & Preprocessing  
+- Exploratory Data Analysis (EDA)  
+- SQL Query Writing  
+- Data Visualization  
+- Business Insight Generation  
+
+## 💡 Business Impact
+
+- Helps businesses target high-value customers
+- Improves marketing strategies using segmentation
+- Supports data-driven discount and pricing decisions
+
+## 🖼️ Additional Analysis
+
+  ## 🐍 Python EDA
+  ![EDA](screenshots/python_eda.png)
+
+  ## 🧹 Data Cleaning
+ ![Before Cleaning](screenshots/data_cleaning_before.png)
+ ![After Cleaning](screenshots/data_cleaning_after.png)
+
+  ## 🗄️ SQL Analysis
+ ![SQL Query](screenshots/sql_query.png)
+ ![SQL Output](screenshots/sql_query_output.png)
+
+
+## 🚀 How to Run
+- Clone the repository
+- Open the Python notebook and run EDA steps
+- Load cleaned data into MySQL
+- Execute SQL queries for analysis
+- Open Power BI file to explore dashboard
+
+## 📂 Project Structure
+
+├── data/
+├── notebooks/
+├── sql/
+├── screenshots/
+├── dashboard/
+├── report/
+├── presentation/
+└── README.md
+
+## ✨ Future Improvements
+- Add predictive modeling (Machine Learning)
+- Automate data pipeline
+- Deploy dashboard online
+
+
+
+
